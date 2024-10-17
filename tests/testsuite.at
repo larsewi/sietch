@@ -1,0 +1,14 @@
+AT_INIT
+AT_COLOR_TESTS
+
+AT_SETUP([sanity check])
+AT_CHECK([/bin/true])
+AT_CLEANUP
+
+AT_SETUP([sietch_version()])
+AT_CHECK([test_sietch_version])
+AT_CLEANUP
+
+AT_SETUP([sietch_init()])
+AT_CHECK([test_sietch_init])
+AT_CLEANUP
